@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #007765;
+  position: fixed;
+  width: 100%;
+}
+
+.anchor__logo {
+  padding-top: 16px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+li {
+  display: inline;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+#ancor1 {
+  height: 70px;
+}
+
+.jumbotron {
+  padding-top: 256px;
+  padding-bottom: 256px;
+  background-image: url(img/jumbotron.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.jumbotron__message {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  color: #fff;
+}
+
+.the_problem {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.the_problem__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+
+.the_problem__message {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(img/PPC.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.PPC {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.PPC__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+
+.PPC__logo {
+  float: left;
+  margin-right: 50px;
+}
+
+.PPC__message {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.the_team {
+  background-color: #eeeeee;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.the_team__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+
+.the_team__members {
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.member_card {
+  text-align: center;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 64px;
+}
+
+.member_card__img {
+  width: 168px;
+  height: 168px;
+}
+
+.member_card__name {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member_card__job {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.footer {
+  padding: 64px 0;
+  background-color: #333333;
+  align-items: center;
+  display: flex;
+}
+
+.footer__message {
+  width: 530px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
